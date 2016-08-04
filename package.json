@@ -1,6 +1,6 @@
 {
   "name": "namey-mcnameface",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Rich Harris",
   "main": "namey-mcnameface.js",
   "module": "namey-mcnameface.js",
