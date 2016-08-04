@@ -1,6 +1,7 @@
 {
   "name": "namey-mcnameface",
-  "version": "1.0.1",
+  "description": "Generate short, memorable random names for stuff",
+  "version": "1.0.2",
   "author": "Rich Harris",
   "main": "namey-mcnameface.js",
   "module": "namey-mcnameface.js",
