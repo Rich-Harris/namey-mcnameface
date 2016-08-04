@@ -1,10 +1,10 @@
-var animals = require( './data/animals.json' );
-var adjectives = require( './data/adjectives.json' );
+import animals from './data/animals.json';
+import adjectives from './data/adjectives.json';
 
 function pickRandom ( array ) {
 	return array[ ~~( Math.random() * array.length ) ];
 }
 
-module.exports = function () {
+export default function nameyMcNameface () {
 	return `${pickRandom(adjectives)}-${pickRandom(animals)}`;
 };

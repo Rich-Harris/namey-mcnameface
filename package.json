@@ -1,4 +1,38 @@
 {
-	"name": "namey-mcnameface",
-	"version": "1.0.0"
+  "name": "namey-mcnameface",
+  "version": "1.0.0",
+  "author": "Rich Harris",
+  "main": "namey-mcnameface.js",
+  "module": "namey-mcnameface.js",
+  "scripts": {
+    "build": "rollup -c",
+	"prepublish": "npm run build"
+  },
+  "files": [
+    "namey-mcnameface.js",
+    "namey-mcnameface.es.js",
+    "README.md"
+  ],
+  "devDependencies": {
+    "rollup": "^0.34.3",
+    "rollup-plugin-buble": "^0.12.1",
+    "rollup-plugin-json": "^2.0.1"
+  },
+  "description": "```js const generateName = require( 'namey-mcnameface' );",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Rich-Harris/namey-mcnameface.git"
+  },
+  "keywords": [
+    "random",
+    "name",
+    "generator",
+    "names"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Rich-Harris/namey-mcnameface/issues"
+  },
+  "homepage": "https://gitlab.com/Rich-Harris/namey-mcnameface#README"
 }
