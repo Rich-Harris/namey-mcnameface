@@ -2271,8 +2271,15 @@ function pickRandom ( array ) {
 	return array[ ~~( Math.random() * array.length ) ];
 }
 
-function nameyMcNameface () {
-	return ((pickRandom(adjectives)) + "-" + (pickRandom(animals)));
+function nameyMcNameface (mcMode) {
+	if ( mcMode === void 0 ) mcMode = false;
+
+	var animal = pickRandom(animals);
+	if(mcMode) {
+		animal = 'mc' + animal.substr(0,1).toUpperCase() + animal.substr(1);
+	}
+
+	return ((pickRandom(adjectives)) + "-" + animal);
 };
 
 export default nameyMcNameface;
