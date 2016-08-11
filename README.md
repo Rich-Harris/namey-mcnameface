@@ -14,6 +14,14 @@ const name6 = nameyMcNameface(); // 'quirky-opossum'
 // and so on...
 ```
 
+Pass `true` to use it in McMode:
+
+```js
+const name7 = nameyMcNameface( true ); // 'entertaining-mcChicken'
+const name8 = nameyMcNameface( true ); // 'judicious-mcGecko'
+const name9 = nameyMcNameface( true ); // 'notable-mcFalcon'
+```
+
 Install it with `npm install namey-mcnameface` or [download from npmcdn.com](https://npmcdn.com/namey-mcnameface).
 
 ## License
